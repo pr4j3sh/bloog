@@ -1,6 +1,6 @@
-# Javascript NPM Package/Library
+# bloog
 
-This is a javascript npm package commonjs module starter template. It produces both `cjs` and `esm` module builds.
+This is a javascript npm package commonjs module that generates markdown blogs using AI. It produces both `cjs` and `esm` module builds.
 
 It provides both package scenarios:
 
@@ -9,19 +9,11 @@ It provides both package scenarios:
 
 ## Usage
 
-- Clone using `@pr4j3sh/frames`
+- Install using `@pr4j3sh/bloog`
 
 ```bash
-npm create @pr4j3sh/frames@latest javascript mypkg
+npm i -g @pr4j3sh/bloog
 ```
-
-- Run using
-
-```bash
-npm run dev
-```
-
-> By default `javascript` package is of type `cjs`. However, the final builds supports both, `cjs` and `esm`.
 
 ## Reference
 

@@ -1,6 +1,6 @@
 {
-  "name": "javascript",
-  "description": "NPM package template.",
+  "name": "bloog",
+  "description": "ai blog generator",
   "version": "1.0.0",
   "main": "dist/bundle.cjs",
   "module": "dist/bundle.mjs",

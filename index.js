@@ -1,9 +1,16 @@
 #!/usr/bin/env node
 
-const { greet } = require("./src/utils");
+const { getPrompt } = require("./src/cli");
+const { getBlog } = require("./src/api");
+const { saveBlog } = require("./src/lib/utils");
+const { paths, query } = require("./src/lib/consts");
 
-console.log(greet("frames"));
+async function init() {
+  const { prompt, title } = await getPrompt(query);
+  const blog = await getBlog(prompt);
+  saveBlog(title, blog, paths.saveDirPath);
+}
 
-module.exports = {
-  greet,
-};
+init();
+
+module.exports = { getPrompt, getBlog, saveBlog };
