@@ -2,14 +2,14 @@
   "name": "bloog",
   "description": "ai blog generator",
   "version": "1.0.0",
-  "main": "dist/bundle.cjs",
-  "module": "dist/bundle.mjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
   "exports": {
     "require": "./dist/index.cjs",
     "import": "./dist/index.mjs"
   },
   "bin": {
-    "javascript": "./dist/bundle.cjs"
+    "bloog": "./dist/index.cjs"
   },
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
@@ -26,15 +26,15 @@
     "commonjs",
     "frames"
   ],
-  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.vercel.app/)",
+  "author": "Prajesh Pratap Singh <prajesh.eleven118@gmail.com> (https://pr4j3sh.github.io/pr4j3sh/)",
   "license": "MIT",
-  "homepage": "https://github.com/pr4j3sh/javascript#readme",
+  "homepage": "https://github.com/pr4j3sh/bloog#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pr4j3sh/javascript.git"
+    "url": "git+https://github.com/pr4j3sh/bloog.git"
   },
   "bugs": {
-    "url": "https://github.com/pr4j3sh/javascript/issues"
+    "url": "https://github.com/pr4j3sh/bloog/issues"
   },
   "devDependencies": {
     "esbuild": "^0.24.0",
