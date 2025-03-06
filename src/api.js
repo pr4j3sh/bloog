@@ -2,4 +2,8 @@ async function getBlog(query) {
   return `${query} blog`;
 }
 
-module.exports = { getBlog };
+async function getCover(query) {
+  return `${query} cover`;
+}
+
+module.exports = { getBlog, getCover };
